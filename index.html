@@ -5,21 +5,32 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <section class="px-example">
-        <h1 class="unit-title">px</h1>
-        <p class="example-text"></p>
-        <div class="btn-wrapper">
-            <button class="btn btn-px">Click me</button>
-        </div>
+    <h4> This container font-size is 32px</h4>
+    <section class="container">
+        <div>List font-size is 1rem</div>
+        <ul class="list-rem">
+            <li>Test item 1</li>
+            <li>Test item 2</li>
+            <li>Test item 3</li>
+        </ul>
     </section>
+    <p>
+        This makes list font-size 16px which is default font-size of the browser.
+    </p>
 
-    <section class="rem-example">
-        <h1 class="unit-title">rem</h1>
-        <p class="example-text"></p>
-        <div class="btn-wrapper">
-            <button class="btn btn-rem">Click me</button>
-        </div>
+    <br>
+    <h4> This container font-size is 32px</h4>
+    <section class="container">
+        <div>List font-size is 1em</div>
+        <ul class="list">
+            <li>Test item 1</li>
+            <li>Test item 2</li>
+            <li>Test item 3</li>
+        </ul>
     </section>
+    <p>
+        This makes list font-size 32px which is parent font-size of the element.
+    </p>
     <script src="main.js"></script>
 </body>
 </html>
