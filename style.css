@@ -16,12 +16,14 @@
     padding: 16px;
     margin: 16px;
     border-width: 2px;
+    font-size: 16px;
 }
 
 .btn-rem {
     padding: 1rem;
     margin: 1rem;
     border-width: 0.125rem;
+    font-size: 1rem;
 }
 
 .btn-wrapper {
